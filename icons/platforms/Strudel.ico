@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Strudel Finance</title>
+    <meta name="title" content="Strudel Finance" />
+    <meta name="description" content="Strudel Finance is the first and only one-way, trustless bridging protocol" />
+    <meta name="keywords" content="Strudel Finance, Strudel Token (TRDL), DApp, Bitcoin (BTC), vBTC, Bitcoin Cash (BCH), DeFi, Ethereum, Polygon, bridging protocol, trustless, Bitcoin wrapper" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="theme-color" content="#25252C">
+    <meta name="msapplication-navbutton-color" content="#25252C">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#25252C">
+    <link rel="apple-touch-icon" sizes="128x128" href="/images/favicon.png">
+    <link href="images/favicon.png" sizes="192x192" rel="icon" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/fontawesome-all.min.css" rel="stylesheet">
+    <link href="https://use.typekit.net/srs8ydx.css" rel="stylesheet">
+    <link href="css/stars.css" rel="stylesheet" />
+    <link href="css/style.css?v4" rel="stylesheet" />
+    <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/mobile-chrome-vh-fix.js" type="text/javascript"></script>
+    <script src="js/jquery.waypoints.min.js" type="text/javascript"></script>
+    <script src="js/mobile-detect.min.js" type="text/javascript"></script>
+    <script src="js/lottie-player.js"></script>
+    <script src="js/scripts.js?v2" type="text/javascript"></script>
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:locale" content="en_EN" />
+    <meta property="og:title" content="Strudel Finance" />
+    <meta property="og:description" content="" />
+    <meta property="og:url" content="https://strudel.finance/" />
+    <meta property="og:image" content="images/strudel-finance-share-image.jpg">
+    <meta property="og:site_name" content='Strudel Finance' />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="playludus.io">
+    <meta property="twitter:url" content="https://strudel.finance/">
+    <meta name="twitter:title" content="Strudel Finance">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="images/strudel-finance-share-image.jpg">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179869676-1"></script>
+    <script>
+        function gtag() { dataLayer.push(arguments) } window.dataLayer = window.dataLayer || [], gtag("js", new Date), gtag("config", "UA-179869676-1")
+    </script>
+    <script>
+        $(document).ready(function ($) {
+            $('.home-wrap #content-wrapper').waypoint(function (direction) {
+                $("#navbar").toggleClass('sticky', direction == 'down');
+            }, {
+                offset: '160px'
+            });
+            $('.home-wrap #main-wrapper').waypoint(function (direction) {
+                $("#navbar").toggleClass('sticky-ani', direction == 'down');
+            }, {
+                offset: '-100px'
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div id="outer-wrapper" class="home-wrap">
+        <div id="main-wrapper">
+            <div id="bg-wrapper"></div>
+            <div id="navbar">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a class="logo-main" href="/">
+                            <span class="logo-main-dark"><img src="images/logo-header-dark.svg"
+                                    alt="Strudel Finance " /></span>
+                            <span class="logo-main-light"><img src="images/logo-header.svg"
+                                    alt="Strudel Finance" /></span>
+                        </a>
+                        <button type="button" class="nav-toggle nav-trigger">
+                            <div class="nav-icon"><span></span></div>
+                        </button>
+                        <div class="nav-wrap">
+                            <nav id="nav-main" class="nav-full">
+                                <ul>
+                                    <li><a class="n-link-2" href="#">What is Strudel?</a></li>
+                                    <li><a class="n-link-3" href="#">Bitcoin</a></li>
+                                    <li><a class="n-link-4" href="#">Why Strudel?</a></li>
+                                    <li><a class="n-link-5" href="#">Team</a></li>
+                                    <li><a class="n-link-6" href="#">Legal</a></li>
+                                    <li><a class="" href="https://hackmd.io/@HD-Strudel/WtS" target="_blank">Strudel Guide</a></li>
+									<li><a class="" href="https://metaverse-4.gitbook.io/welcome-to-strudel/" target="_blank">Docs</a></li>
+                                </ul>
+                            </nav>
+                            <nav id="nav-right">
+                                <div class="nav-buttons">
+                                    <a class="button" href="https://app.strudel.finance/" target="_blank" title="">
+                                        <i class="fal fa-home-lg-alt"></i>
+                                        <span>Strudel DApp</span>
+                                    </a>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="content-top-wrapper">
+                <div id="banner-wrapper">
+                    <div id="banner-main">
+                        <div class="banner-stars">
+                            <div id='stars'></div>
+                            <div id='stars2'></div>
+                            <div id='stars3'></div>
+                        </div>
+                        <div class="banner-text-wrap">
+                            <div class="container">
+                                <div class="banner-text">
+                                    <div class="banner-text-center">
+                                        <div class="banner-header">
+                                            <div class="banner-header-title">
+                                                <div class="banner-main-top">
+                                                    <span class="sub-title">Enter the Strudel</span>
+                                                    <h1>Strudel DAO: The first and only one-way, trustless bridging protocol</h1>
+                                                </div>
+                                                <div class="banner-main-btm">
+                                                    <p class="bold">
+                                                        The Strudel DAO links Bitcoin (BTC), Bitcoin Cash (BCH), and other centralized assets to the expanding DeFi landscape. Powered by the governance token, Strudel Token (TRDL), Strudel allows BTC, BCH, and other assets to be utilized in the Ethereum and Polygon ecosystems to reap the benefits of liquidity mining, arbitrage, lending, collateralization, and more.
+													</p>	
+													<p>
+                                                        By eliminating the need for custodial control of assets with typical wrappers, Strudel’s trustless protocol trades off counterparty risk for market risk while using market dynamics, crypto-economic incentives and cross-chain capabilities to maintain a pegged, scalable, and capital-efficient ecosystem. This one-of-a-kind economic approach offers average users and big money investors alike numerous options for monetary growth and grants more diversity and security to DeFi.
+													</p>
+													<p>
+                                                        Learn more about the protocol in <a class="guide" href="https://metaverse-4.gitbook.io/welcome-to-strudel/" target="_blank">our documents</a>.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="banner-header-button">
+                                                <a class="button" target="_blank" href="https://app.strudel.finance/"
+                                                    download>Launch App</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="banner-animation">
+                                    <lottie-player class="animation-json" src="js/strudel-animation.json"
+                                        background="transparent" speed="1" loop autoplay></lottie-player>
+                                </div>
+                            </div>
+                        </div>
+
+                        <ul class="banner-social">
+                            <li><a href="https://t.me/StrudelFinanceOfficial" target="_blank" title="Telegram"><i
+                                        class="fab fa-telegram-plane"></i></a></li>
+                            <li><a href="https://twitter.com/EnterTheStrudel" target="_blank" title="Twitter"><i
+                                        class="fab fa-twitter"></i></a></li>
+                            <li><a href="https://medium.com/@strudeldao" target="_blank" title="Medium"><i
+                                        class="fab fa-medium-m"></i></a></li>
+                            <li><a href="https://discord.gg/strudel" target="_blank" title="Discord"><i
+                                        class="fab fa-discord"></i></a></li>
+                            <li><a href="https://github.com/strudel-finance/" target="_blank" title="Github"><i
+                                        class="fab fa-github"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div id="content-wrapper">
+                <div id="content-1" class="content-banner-wrap">
+                    <div class="container">
+                        <div class="content-banner">
+                            <div class="banner-blk-txt banner-txt-sm">
+                                <div class="content-banner-title">
+                                    <span class="sub-title">Our Vision</span>
+                                    <h2>What is Strudel DAO?</h2>
+                                </div>
+                                <div class="content-banner-txt">
+                                    <p>By eliminating the need for custodial control of assets with typical wrappers, Strudel’s trustless protocol trades off counter-party risk for market risk while using market dynamics, crypto-economic incentives, and cross-chain capabilities to maintain a pegged, scalable, and capital-efficient ecosystem. This one-of-a-kind economic approach offers average users and big money investors alike numerous options for monetary growth and grants more diversity and security to DeFi.</p>
+                                </div>
+                                <a class="button" href="https://metaverse-4.gitbook.io/welcome-to-strudel/" target="_blank" title="Guide">
+                                    Go to docs
+                                </a>
+                            </div>
+                            <div class="banner-blk-txt banner-txt-lg">
+                                <div class="banner-img-blocks">
+                                    <div class="banner-blk-img-wrap">
+                                        <div class="banner-img-blk">
+                                            <div class="banner-img-blk-img">
+                                                <span><i class="fal fa-shield-alt"></i></span>
+                                            </div>
+                                            <div class="banner-img-blk-txt">
+                                                <h3>Trustless</h3>
+                                                <p>
+                                                    BTC collateral is safely kept forever in the custody of the Strudel
+                                                    protocol. Nobody can move the underlying BTC on the original chain.
+                                                    They can only be utilized in the Ethereum ecosystem.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="banner-blk-img-wrap">
+                                        <div class="banner-img-blk">
+                                            <div class="banner-img-blk-img">
+                                                <span><i class="fal fa-link"></i></span>
+                                            </div>
+                                            <div class="banner-img-blk-txt">
+                                                <h3>Capital Efficient</h3>
+                                                <p>
+                                                    The Strudel protocol doesn't need collateral to guarantee the safety
+                                                    of the assets bridged. For this reason the protocol is able to
+                                                    incentivize liquidity provision to sustain the peg long term.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="banner-blk-img-wrap">
+                                        <div class="banner-img-blk">
+                                            <div class="banner-img-blk-img">
+                                                <span><i class="fal fa-tornado"></i></span>
+                                            </div>
+                                            <div class="banner-img-blk-txt">
+                                                <h3>Scalable</h3>
+                                                <p>
+                                                    vBTC can realistically wrap a significant number of the BTC supply.
+                                                    As more BTC cross the bridge, the system value is solidified and
+                                                    assets will trend closer to the pegged price.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="banner-blk-img-wrap">
+                                        <div class="banner-img-blk">
+                                            <div class="banner-img-blk-img">
+                                                <span><i class="fal fa-hexagon"></i></span>
+                                            </div>
+                                            <div class="banner-img-blk-txt">
+                                                <h3>L2 Ready</h3>
+                                                <p>vBTC and $TRDL are ready to be ported to other chains, unlocking BTC
+                                                    as collateral in all of the interchain.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="content-2" class="content-banner-wrap">
+                    <div class="container">
+                        <div class="content-banner">
+                            <div class="banner-blk-txt banner-txt-sm">
+                                <div class="content-banner-title">
+                                    <span class="sub-title">Bitcoin Needs DeFi</span>
+                                    <h2>Fantom is perfect for a BTC DeFi ecosystem.</h2>
+                                </div>
+                            </div>
+                            <div class="banner-blk-txt banner-txt-lg">
+                                <div class="banner-img-blocks">
+                                    <div class="banner-blk-img-wrap">
+                                        <div class="banner-img-blk">
+                                            <div class="banner-img-blk-txt">
+                                                <p>We found Fantom’s approach to continuous technical innovation and strong application layer foundations well suited for the heavy lifting Strudel DAO is going to need.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="banner-blk-img-wrap">
+                                        <div class="banner-img-blk">
+                                            <div class="banner-img-blk-txt">
+                                                <p>Fantom is also a solid ecosystem, which has been rising even when Bitcoin was deflated. This tells us that the market is aware of Fantom’s potential. That’s why we choose to launch on the Fantom; a new network with plenty of growth for Strudel DAO to start fresh.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="content-3" class="content-banner-wrap">
+                    <div class="container">
+                        <div class="content-banner">
+                            <div class="banner-blk-img">
+                                <img src="images/why-strudel-illustration.jpg" alt="Why Strudel?">
+                            </div>
+                            <div class="banner-blk-txt">
+                                <div class="content-banner-title">
+                                    <h2>Introducing the Orkan ($ORK): A decentralized reserve currency for the Fantom Ecosystem.</h2>
+                                </div>
+                                <div class="content-banner-txt">
+                                    <p>Being able to bridge BTC on a blockchain in a trustless way, needs consensus. The more people bridge, the more will be able to bridge The more it is used the better it keeps peg. After we’ll have acquired our sizeable positions in Spirit and/or other projects, we’ll introduce vBTC farms and direct yields to those. This permanently increasing demand and will make vBTC price rise, even above peg.</p>
+                                    <p>But why $ORK token? Orkan is the German word for Hurricane. And we’re bringing the Bitcoin Hurricane to Fantom. $ORK will be the reserve currency for the new Ohmification of our Strudel Protocol incentives. We need incentives in place to buy vBTC when it is below peg on Mainnet, and a place to arbitrage it on Fantom, or bond it to the protocol for discounted $ORK. This creates a buying pressure we didn’t have before, and incentivizes a trading/bonding structure rather than direct sale. This equates to a more utility-heavy Strudel-wrapped Bitcoin. The longer we can keep the price pegged to the BTC average, the deeper the pool gets, the stronger the bridge.</p>
+									<p>The bridging will come as natural arbitraging. And people will bridge. A lot. We’re building other strong use cases for vBTC too, which will be here to stay. Everywhere there is a pool with wrapped Bitcoins, there will be vBTC. And, most of the time, we’ll be the highest paying of your wrapped BTC options.</p>
+                                    <a class="button" target="_blank" href="https://discord.gg/strudel" title="Join our Discord">
+                                        Join our Discord
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="content-4" class="content-banner-wrap">
+                    <div class="container">
+                        <div class="content-banner">
+                            <div class="banner-blk-txt">
+                                <div class="content-banner-title">
+                                    <span class="sub-title">How does it work?</span>
+                                    <h2>Enter the Strudel</h2>
+                                </div>
+                                <div class="content-banner-txt">
+                                    <p>
+                                        By using the Strudel Dapp, Bitcoin is permanently locked and marked with the
+                                        Strudel protocol identifier. The lock transaction is then relayed to Ethereum,
+                                        issuing vBTC on Ethereum in the exact ratio of 1:1.
+                                    </p>
+                                    <a class="button"
+                                        href="https://app.zerion.io/invest/asset/SLP-0x05cc2e064e0b48e46015ead9961f1391d74e5f83"
+                                        target="_blank" title="$TRDL/ETH">
+                                        $TRDL/ETH SLP
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="banner-blk-img">
+                                <img src="images/how-does-it-work-illustration.jpg" alt="How does it work?">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="content-5" class="content-banner-wrap">
+                    <div class="container">
+                        <div class="content-banner">
+                            <div class="banner-blk-img">
+                                <img src="images/strudel-token-illustration.jpg" alt="The Strudel Token">
+                            </div>
+                            <div class="banner-blk-txt">
+                                <div class="content-banner-title">
+                                    <span class="sub-title">Strudel Token</span>
+                                    <h2>The Strudel Token</h2>
+                                </div>
+                                <div class="content-banner-txt">
+                                    <p>
+                                        $TRDL is the governance and reward token for the Strudel Protocol. It is created
+                                        on 2 separate occasions:
+                                    </p>
+                                    <ul>
+                                        <li>When a user crosses BTC over the bridge, $TRDL is minted alongside vBTC, providing extra incentive.</li>
+                                        <li>$TRDL rewards are distributed per block to liquidity providers of various Strudel (Terra Farm) pools.</li>
+                                    </ul>
+                                    <p>Terra-farming started at block #11.021.639 with 1 $TRDL per block and this reward remains. As another incentive, the more BTC that cross the bridge, the higher the bonus multiplier is for Terra farmers, increasing $TRDL harvests above 1 $TRDL per block temporarily.</p>
+                                    <a class="button" target="_blank"
+                                        href="https://app.zerion.io/invest/asset/UNI-V2-0xcfdcd696dde5df39f569807c6934e6ba97cebb8a"
+                                        title="$TRDL ETF">
+                                        vBTC/ETH LP
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				
+                <div id="content-banner-icons" class="content-banner-wrap">
+                    <div class="container">
+                        <div class="content-banner content-banner-center">
+                            <div class="banner-blk-txt">
+                                <div class="content-banner-title banner-title-big">
+                                    <span class="sub-title">Meet the Strudel</span>
+                                    <h2>Partners and Exchanges</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-banner-icons">
+                            <ul>
+                                <li class="banner-icon-blk">
+                                    <a href="https://agatoken.com/" title="Aga" target="_blank">
+                                        <img src="images/partners/crypto-logos_aga.svg" alt="Aga">
+                                    </a>
+                                </li>
+                                <li class="banner-icon-blk">
+                                    <a href="https://www.harmony.one/" title="Harmony" target="_blank">
+                                        <img src="images/partners/crypto-logos_harmony.svg" alt="Harmony">
+                                    </a>
+                                </li>
+                                <li class="banner-icon-blk">
+                                    <a href="https://www.ichi.org/" title="Ichi" target="_blank">
+                                        <img src="images/partners/crypto-logos_ichi.svg" alt="Ichi">
+                                    </a>
+                                </li>
+                                <li class="banner-icon-blk">
+                                    <a href="https://www.kittenswap.org/" title="Kittenswap" target="_blank">
+                                        <img src="images/partners/crypto-logos_kittenswap.svg" alt="Kittenswap">
+                                    </a>
+                                </li>
+                                <li class="banner-icon-blk">
+                                    <a href="https://www.liquiddriver.finance/" title="Liquid Driver" target="_blank">
+                                        <img src="images/partners/crypto-logos_liquiddrier.svg" alt="Driver">
+                                    </a>
+                                </li>
+                                <li class="banner-icon-blk">
+                                    <a href="https://near.org/" title="Near" target="_blank">
+                                        <img src="images/partners/crypto-logos_near.svg" alt="Near">
+                                    </a>
+                                </li>
+                                <li class="banner-icon-blk">
+                                    <a href="https://nerd.finance/" title="Nerd Finance" target="_blank">
+                                        <img src="images/partners/crypto-logos_nerdfinance.svg" alt="Nerd Finance">
+                                    </a>
+                                </li>
+                                <li class="banner-icon-blk">
+                                    <a href="https://www.spiritswap.finance/" title="Spirit Swap" target="_blank">
+                                        <img src="images/partners/crypto-logos_spiritswap.svg" alt="Spirit Swap">
+                                    </a>
+                                </li>
+                                <li class="banner-icon-blk">
+                                    <a href="https://app.sushi.com/" title="Sushi Swap" target="_blank">
+                                        <img src="images/partners/crypto-logos_sushiswap.svg" alt="Sushi Swap">
+                                    </a>
+                                </li>
+                                <li class="banner-icon-blk">
+                                    <a href="https://www.adventuretoken.com/" title="Adventure Token" target="_blank">
+                                        <img src="images/partners/crypto-logos_twa.svg" alt="Adventure Token">
+                                    </a>
+                                </li>
+                                <li class="banner-icon-blk">
+                                    <a href="https://uniswap.org/" title="Uniswap" target="_blank">
+                                        <img src="images/partners/crypto-logos-uniswap.svg" alt="Uniswap">
+                                    </a>
+                                </li>
+                                <li class="banner-icon-blk">
+                                    <a href="https://aurora.dev/dao" title="Aurora" target="_blank">
+                                        <img src="images/partners/crypto-logos_aurora.svg" alt="Aurora">
+                                    </a>
+                                </li>
+                                <li class="banner-icon-blk">
+                                    <a href="https://beefy.finance/" title="Beefy" target="_blank">
+                                        <img src="images/partners/partner-logos_beefy.svg" alt="Beefy">
+                                    </a>
+                                </li>
+                                <li class="banner-icon-blk">
+                                    <a href="https://moonpot.com/" title="Moonpot" target="_blank">
+                                        <img src="images/partners/partner-logos_moonpot.svg" alt="Moonpot">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="content-bottom">
+                <div id="content-team" class="content-banner-wrap">
+                    <div class="container">
+                        <div class="content-banner content-banner-center">
+                            <div class="banner-blk-txt">
+                                <div class="content-banner-title">
+                                    <span class="sub-title">Team Strudel</span>
+                                    <h2>Meet the Strudel team.</h2>
+                                </div>
+                                <div class="content-banner-txt">
+                                    <p>Strudel Finance operates under the open organization principles where contributors are free to participate and be rewarded when adding value to the ecosystem</p>
+                                </div>
+                            </div>
+                            <div class="profile-scroll-wrapper">
+                                <div class="profile-users-wrapper">
+                                    <div class="profile-users">
+                                        <div class="profile-user-wrap">
+                                            <div class="profile-user">
+                                                <div class="profile-user-img">
+                                                    <div><span><img src="images/team/carlos.jpg" alt="Carlos Vera Paz" /></span></div>
+                                                </div>
+                                                <div class="profile-user-title">
+                                                    <div>Carlos Vera Paz</div>
+                                                    <span>Technology</span>
+                                                </div>
+                                                <div class="profile-user-socials">
+                                                    <a href="https://www.linkedin.com/in/carlos-vera-3000739a/" title="LinkedIn" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                                                    <a href="https://twitter.com/AtaxiaNQ" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="profile-user-wrap">
+                                            <div class="profile-user">
+                                                <div class="profile-user-img">
+                                                    <div><span><i class="fal fa-user"></i></span></div>
+                                                </div>
+                                                <div class="profile-user-title">
+                                                    <div>José</div>
+                                                    <span>Communications</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="profile-user-wrap">
+                                            <div class="profile-user">
+                                                <div class="profile-user-img">
+                                                    <div><span><i class="fal fa-user"></i></span></div>
+                                                </div>
+                                                <div class="profile-user-title">
+                                                    <div>Aimee</div>
+                                                    <span>Operations</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="profile-user-wrap">
+                                            <div class="profile-user">
+                                                <div class="profile-user-img">
+                                                    <div><span><i class="fal fa-user"></i></span></div>
+                                                </div>
+                                                <div class="profile-user-title">
+                                                    <div>Paul</div>
+                                                    <span>Operations</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="profile-user-wrap">
+                                            <div class="profile-user">
+                                                <div class="profile-user-img">
+                                                    <div><span><i class="fal fa-user"></i></span></div>
+                                                </div>
+                                                <div class="profile-user-title">
+                                                    <div>X</div>
+                                                    <span>Advisor</span>
+                                                </div>
+                                            </div>
+                                        </div>
+										<div class="profile-user-wrap">
+                                            <div class="profile-user">
+                                                <div class="profile-user-img">
+                                                    <div><span><i class="fal fa-user"></i></span></div>
+                                                </div>
+                                                <div class="profile-user-title">
+                                                    <div>Air</div>
+                                                    <span>Business Development</span>
+                                                </div>
+                                            </div>
+                                        </div>
+										<div class="profile-user-wrap">
+                                            <div class="profile-user">
+                                                <div class="profile-user-img">
+                                                    <div><span><i class="fal fa-user"></i></span></div>
+                                                </div>
+                                                <div class="profile-user-title">
+                                                    <div>Carl</div>
+                                                    <span>HR</span>
+                                                </div>
+                                            </div>
+                                        </div>
+										
+                                        <div class="profile-user-wrap">
+                                            <div class="profile-user">
+                                                <div class="profile-user-img">
+                                                    <div><span><img src="images/team/johann-barbie.jpg" alt="Johann" /></span></div>
+                                                </div>
+                                                <div class="profile-user-title">
+                                                    <div>Johann</div>
+                                                    <span>Advisor</span>
+                                                </div>
+                                                <div class="profile-user-socials">
+                                                    <a href="https://twitter.com/JohBa" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="profile-user-wrap">
+                                            <div class="profile-user">
+                                                <div class="profile-user-img">
+                                                    <div><span><img src="images/team/keno-budde.jpg" alt="Keno Budde" /></span></div>
+                                                </div>
+                                                <div class="profile-user-title">
+                                                    <div>Keno</div>
+                                                    <span>Advisor</span>
+                                                </div>
+                                                <div class="profile-user-socials">
+                                                    <a href="https://www.linkedin.com/in/kenobudde/" title="LinkedIn" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                                                    <a href="https://twitter.com/0xKeno" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="content-legal" class="content-banner-wrap content-banner-bottom">
+                    <div class="container">
+                        <div class="content-banner content-banner-center">
+                            <div class="banner-blk-txt">
+                                <div class="content-banner-title">
+                                    <span class="sub-title">Legal information</span>
+                                    <h2>Legal Notice and Disclaimer</h2>
+                                </div>
+                                <div class="txt-collapse-wrapper">
+                                    <div class="content-banner-txt txt-collapse">
+                                        <p>Trading and investing in cryptocurrencies (also called digital or virtual
+                                            currencies, crypto assets, altcoins and tokens) involves substantial risk of
+                                            loss and is not suitable for every investor. Any content on this site should
+                                            not be relied upon as advice or construed as providing recommendations of
+                                            any kind. It is your responsibility to confirm and decide when to trade our
+                                            token. </p>
+                                        <p>Trade only with risk capital; that is, trade with money that, if lost, will
+                                            not adversely impact your lifestyle and your ability to meet your financial
+                                            obligations. Past results are no indication of future performance. In no
+                                            event should the content of this correspondence be construed as an express
+                                            or implied promise or guarantee. Strudel Finance is not responsible for any
+                                            losses incurred as a result of trading our token. </p>
+                                        <p>Information provided in this correspondence is intended solely for
+                                            informational purposes and is obtained from sources believed to be reliable.
+                                            Information is in no way guaranteed. No guarantee of any kind is implied or
+                                            possible where projections of future conditions are attempted. None of the
+                                            content published on this site constitutes a recommendation that any
+                                            particular cryptocurrency, portfolio of cryptocurrencies, transaction or
+                                            investment strategy is suitable for any specific person. None of the
+                                            information providers or their affiliates will advise you personally
+                                            concerning the nature, potential, value or suitability of any particular
+                                            cryptocurrency, portfolio of cryptocurrencies, transaction, investment
+                                            strategy or other matter. </p>
+                                        <p>The products and services presented on this website may only be purchased in
+                                            jurisdictions in which their marketing and distribution are authorised.
+                                            Strudel finance advises all interested parties to check in advance whether
+                                            they are legally entitled to purchase the products and/or services presented
+                                            on this website.</p>
+                                    </div>
+                                    <button id="text-toggle" class="button btn-clean">
+                                        <span>Read more</span>
+                                        <i class="fal fa-chevron-down"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="footer">
+                <div class="container">
+                    <div class="footer-content">
+                        <div class="footer-logo-main">
+                            <a class="footer-logo" href="/">
+                                <img src="images/logo-footer.svg" alt="Strudel Finance" />
+                            </a>
+                        </div>
+                        <div class="footer-menu">
+                            <ul class="footer-menu-list">
+                                <li><a class="n-link-2" href="#">What is Strudel</a></li>
+                                <li><a class="n-link-3" href="#">Bitcoin</a></li>
+                                <li><a class="n-link-4" href="#">Why Strudel</a></li>
+                                <li><a class="n-link-5" href="#">Team</a></li>
+                                <li><a class="n-link-6" href="#">Legal</a></li>
+                                <li><a class="n-link-7" href="https://hackmd.io/@HD-Strudel/WtS" target="_blank">Strudel Guide</a></li>
+                                <li><a class="" href="https://metaverse-4.gitbook.io/welcome-to-strudel/" target="_blank">Docs</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="footer-bottom">
+                        <ul class="footer-social">
+                            <li><a href="https://t.me/StrudelFinanceOfficial" target="_blank" title="Telegram"><i class="fab fa-telegram-plane"></i></a></li>
+                            <li><a href="https://twitter.com/EnterTheStrudel" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="https://medium.com/@strudeldao" target="_blank" title="Medium"><i class="fab fa-medium-m"></i></a></li>
+                            <li><a href="https://discord.gg/strudel" target="_blank" title="Discord"><i class="fab fa-discord"></i></a></li>
+                            <li><a href="https://github.com/strudel-finance/" target="_blank" title="Github"><i class="fab fa-github"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--<script src="/js/mobile-detect.min.js" type="text/javascript"></script>-->
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+<html>
+<head><title>400 Bad Request</title></head>
+<body>
+<h1>400 Bad Request</h1>
+<ul>
+<li>Code: IncorrectEndpoint</li>
+<li>Message: The specified bucket exists in another region. Please direct requests to the specified endpoint.</li>
+<li>Endpoint: www.dungeonswap.app.s3-website.eu-west-2.amazonaws.com</li>
+<li>RequestId: 3PCXWD829CP9X6D4</li>
+<li>HostId: VbKUakfdBuPpRaBaxoTE7ol18y7TdOMkCBbtwje7hPMd4ggcmilv23ehXSIUfnH1zKQWXopHJ50=</li>
+</ul>
+<hr/>
+</body>
+</html>

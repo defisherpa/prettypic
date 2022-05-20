@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-KZJRW5F');</script>
+        <!-- End Google Tag Manager -->
+        <style data-emotion="mantine "></style>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Mint stablecoins against collateral" />
+        <title>Mimo DeFi</title>
+        <meta name="theme-color" content="#000000" />
+        <link rel="apple-touch-icon" sizes="57x57" HREF="/favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" HREF="/favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" HREF="/favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" HREF="/favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" HREF="/favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" HREF="/favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" HREF="/favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" HREF="/favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" HREF="/favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  HREF="/favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" HREF="/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" HREF="/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" HREF="/favicon/favicon-16x16.png">
+        <link rel="manifest" HREF="/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#000000">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Raleway:wght@400;700;800&display=swap" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="/assets/renderer/_default.page.client.tsx.99d2dfb1.css"><link rel="modulepreload" as="script" type="text/javascript" href="/assets/vendor.358d8507.js"></head>
+      <body>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KZJRW5F"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+        <div id="page-view"><h1>404 Page Not Found</h1><p>This page could not be found.</p></div>
+      <script type="module" src="/assets/renderer/_default.page.client.tsx.74d6b3e5.js"></script><script id="vite-plugin-ssr_pageContext" type="application/json">{"pageContext":{"_pageId":"/renderer/_error","pageProps":{"is404":true},"urlPathname":"/fake-404-url","is404":true}}</script></body>
+    </html>

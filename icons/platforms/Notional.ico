@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><base href="/">
+    <meta charset="utf-8" />
+    <title>Notional Finance</title>
+    <link rel="icon" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script async src="https://www.googleoptimize.com/optimize.js?id=OPT-P63CDRK"></script>
+    <script async src="https://www.youtube.com/iframe_api"></script>
+  <link rel="stylesheet" href="main.css"><link rel="stylesheet" href="main.24d96fdb11af243e.css"></head>
+
+  <body>
+    <form hidden method='post' name='newsletter'><input type='hidden' name='form-name' value='newsletter' />
+      <input type="email" name="email" />
+    </form>
+    <div id="root"></div>
+  <script src="runtime.ee562dfc205e5a8e.js" type="module"></script><script src="runtime.d615757c63b68f16.js" nomodule defer></script><script src="polyfills.57324c4159576368.js" type="module"></script><script src="polyfills.9a359ce23e34f0e4.js" nomodule defer></script><script src="main.d914443300c961ca.js" type="module"></script><script src="main.2878ee8a7ef4cead.js" nomodule defer></script></body>
+</html>

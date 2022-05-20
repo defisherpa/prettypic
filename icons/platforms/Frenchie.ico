@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width:device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png">
+  <title>Francium</title>
+  <meta name="keywords" content="francium,strategy,solana,Defi">
+  <meta name="description" content="Francium - DeFi Yield Strategy Platform">
+  <meta name="google" content="notranslate">
+  <meta name="theme-color" content="#000000" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Francium" />
+  <meta name="twitter:description"
+    content="Francium - DeFi Yield Strategy Platform" />
+  <!-- <meta name="twitter:image" content="/twitter-image.png" /> -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6NM2D41D0C"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-6NM2D41D0C');
+  </script>
+<link rel="shortcut icon" href="/favicon.png"><link href="/assets/css/1.00f050b8c2bdd591f2c4.css" rel="stylesheet"><link href="/assets/css/bundle.00f050b8c2bdd591f2c4.css" rel="stylesheet"></head>
+<body>
+  <div id="app"></div>
+<script type="text/javascript" src="/assets/js/1.bundle.00f050b8c2bdd591f2c4.js"></script><script type="text/javascript" src="/assets/js/bundle.00f050b8c2bdd591f2c4.js"></script></body>
+</html>

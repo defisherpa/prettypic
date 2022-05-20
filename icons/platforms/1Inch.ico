@@ -1,0 +1,14 @@
+<html>
+<head><title>404 Not Found</title></head>
+<body>
+<h1>404 Not Found</h1>
+<ul>
+<li>Code: NoSuchKey</li>
+<li>Message: The specified key does not exist.</li>
+<li>Key: favicon.ico</li>
+<li>RequestId: Y03C68ZQ39JC29WW</li>
+<li>HostId: gBUWsegVDasdUrzpP1E49GQPVJadtKWZpnd2L26c1DkTD3r0+YrMHM8k3W4R2o7vsTUyjq8GEwE=</li>
+</ul>
+<hr/>
+</body>
+</html>
